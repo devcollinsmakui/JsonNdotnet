@@ -1,0 +1,4 @@
+interface IPeoplRepository: IEntityWriter<Person>
+{
+    
+}
