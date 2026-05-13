@@ -9,7 +9,7 @@ class Program
         Person person1 = new Person
         {
             Id = "one",
-            Name = "Asenath Nyabuto",
+            Name = "Asenath Kwamboka",
             Age = 19,
             Gender = Gender.Female,
             Hobies = ["cooking", "adventure"]

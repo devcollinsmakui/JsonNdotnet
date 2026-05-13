@@ -1,7 +1,7 @@
 [
   {
     "Id": "one",
-    "Name": "Asenath Nyabuto",
+    "Name": "Asenath Kwamboka",
     "Age": 19,
     "Gender": 1,
     "Hobies": [
@@ -10,33 +10,13 @@
     ]
   },
   {
-    "Id": "one",
-    "Name": "Asenath Nyabuto",
-    "Age": 19,
+    "Id": "two",
+    "Name": "Collins Makui",
+    "Age": 25,
     "Gender": 1,
     "Hobies": [
-      "cooking",
-      "adventure"
-    ]
-  },
-  {
-    "Id": "one",
-    "Name": "Asenath Nyabuto",
-    "Age": 19,
-    "Gender": 1,
-    "Hobies": [
-      "cooking",
-      "adventure"
-    ]
-  },
-  {
-    "Id": "one",
-    "Name": "Asenath Nyabuto",
-    "Age": 19,
-    "Gender": 1,
-    "Hobies": [
-      "cooking",
-      "adventure"
+      "music",
+      "art"
     ]
   }
 ]

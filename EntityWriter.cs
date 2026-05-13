@@ -1,7 +1,7 @@
 using System.Text.Json;
 using System.Threading.Tasks;
 
-class EntityWriter<T> : IEntityWriter<T> where T : class
+class EntityWriter<T> : IEntityWriter<T> where T : IEntity
 {
     public async Task Save(T entity)
     {
@@ -11,11 +11,11 @@ class EntityWriter<T> : IEntityWriter<T> where T : class
         {
             entities = await ReadJsonFromFileAsync(filePath);
         }
-        if(entities.Any(e=>e == entity))
+        var entitythatExists = entities.FirstOrDefault(e => e.Id == entity.Id);
+        if(entitythatExists != null)
         {
             Console.WriteLine("yes");
-            var index = entities.IndexOf(entity);
-
+            var index = entities.IndexOf(entitythatExists);
             entities[index] = entity;
         }
         else
